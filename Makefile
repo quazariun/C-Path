@@ -13,3 +13,4 @@ all: ${OBJS}
 	
 clean:
 	${RM} ${OBJS}
+	find -type f -name "*.out" -exec ${RM} {} \;
