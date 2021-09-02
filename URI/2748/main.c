@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 void hor_line(){
-	for(int x = 0; x < 39; ++x)
+  int x;
+	for(x = 0; x < 39; ++x)
 		printf("-");
 	printf("\n");
 }
 
 void ver_line(char *str, int size){
 	int i = 0;
-	
+	int x;
 	printf("|");
-	for(int x = 0; x < 37; ++x){
+	for(x = 0; x < 37; ++x){
 		if(x >= 8 && size > 0){
 			printf("%c", str[i++]);
 			size--;

@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 int main(){
-	int n;
+	int x;
+  int n;
 	int vect[1000000];
 	int ind_rangel, ind_gugu;
 	long long rangel, gugu;
@@ -13,7 +14,7 @@ int main(){
 		rangel = 0;
 		gugu = 0;
 		
-		for(int x = 0; x < n; ++x)
+		for(x = 0; x < n; ++x)
 			scanf("%d", &vect[x]);
 
 		if(n == 1){

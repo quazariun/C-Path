@@ -18,11 +18,11 @@ int main(){
 	char plate[1000];
 	char days[10][50] = {"MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"};
 	int day = 0;
-
+  int x;
 	int n;
 	scanf("%d", &n);
 
-	for(int x = 0; x < n; ++x){
+	for(x = 0; x < n; ++x){
 		scanf(" %s", plate);
 
 		if(validation(plate)){

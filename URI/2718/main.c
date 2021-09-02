@@ -4,11 +4,11 @@ int main(){
 	unsigned long long lamps;
 	int range_count;
 	int max_range;
-
+  int x;
 	int n;
 	scanf("%d", &n);
 
-	for(int x = 0; x < n; ++x){
+	for(x = 0; x < n; ++x){
 		range_count = 0;
 		max_range = 0;
 		scanf("%llu", &lamps);

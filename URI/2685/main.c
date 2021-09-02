@@ -14,4 +14,6 @@ int main(){
 			printf("De Madrugada!!\n");
 		}
 	}
+
+  return 0;
 }

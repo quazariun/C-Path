@@ -5,15 +5,15 @@ char alpha[] = {"abcdefghijklmnopqrstuvwxyz"};
 
 int main(){
 	char code[50];
-	int n;
+	int n, x, y;
 	int flag, points, spaces;
 	while(scanf("%d", &n) == 1){
-		for(int x = 0; x < n; ++x){
+		for(x = 0; x < n; ++x){
 			scanf(" %[^\n]s", code);
 			flag = 0;
 			points = 0;
 			spaces = 0;
-			for(int y = 0; y < (int)strlen(code); ++y){
+			for(y = 0; y < (int)strlen(code); ++y){
 				if(code[y] == '.' && flag == 0){
 					points++;
 				}else{
